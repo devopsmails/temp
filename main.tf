@@ -4,3 +4,6 @@ provdier "aws" {
 provdier "azure" {
     region = "us-east-1"
 }
+provdier "gcp" {
+    region = "us-east-1"
+}
