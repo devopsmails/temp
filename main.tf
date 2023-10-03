@@ -8,5 +8,6 @@ resource "aws_instance" "gabby-ec2-1"{
     vpc = "aws_vpc.gabby_vpc.id"
     s3_bucket="aws_s3.bucket_name.id"
     s3_bucket1="aws_s3.bucket_name1.id"
+     s3_bucket2="aws_s3.bucket_name2.id"
 }
 
